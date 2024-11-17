@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dhanshree's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav">
+            <a href="index.html" id="first">Home</a>
+            <a href="about.html">About Me</a>
+            <a href="projects.html">Projects</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </nav>
+    <h4 style="padding-top: 8vh;">Contact Me</h4>
+    <div class="container"  data-aos="fade-up">
+        <div class="sec contactsec" >
+            <form name="contact" method="POST" data-netlify="true" onsubmit="send();">
+                <input type="text" name="name" placeholder="Your Full Name" class="inp-form" id="contactname" required><br>
+                <input type="email" name="email" placeholder="Your Email id" class="inp-form"required><br>
+                <input type="text" name="subject" placeholder="Subject" class="inp-form"required><br>
+                <textarea name="message" cols="20" rows="7" placeholder="Your Message" class="inp-form"required></textarea><br>
+                <button type="submit" id="contactbtn">Send Message</button>
+            </form>
+        </div>
+        <footer>
+             &copy; 2024 Dhanshree Magar  |  All Rights Reserved
+        </footer>
+    </div>
+    <script>
+        AOS.init();
+      </script>
+</body>
+</html>
