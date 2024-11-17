@@ -225,20 +225,21 @@ footer{
     }
     .aboutsec{
         padding-top: 290px;
-        text-align: center;
     }
     .navbar,.nav{
         display: none;
     }
-    /* .aboutimg{
-         margin-left: -50px; 
-        border-radius: 10px;
-    } */
     .projectbtn{
         display: none;
     }
+    .project{
+        margin-bottom: 50px;
+    }
     .container{
         font-size: 23px;
+    }
+    header{
+        padding-top: 200px;
     }
 }
 @media(min-width:1114px){
@@ -253,5 +254,11 @@ footer{
 } */
 @media(max-width:666px){
     body{
-        width: 480px;}
+        width: 480px;
+        padding: 0;
+        padding-left: 60px;
+    }
+    button{
+        padding: 15px 30px;
+    }
 }
