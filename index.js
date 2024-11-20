@@ -1,5 +1,5 @@
 function send(){
-    var contactname = document.getElementById("contactname");
-    var value  = contactname.value;
-    alert(`Hello,${value} your message sent successfully!`);
+    let contactname = document.getElementById("contactname");
+    let value  = contactname.value;
+    alert(`Hello, ${value} your message sent successfully!`);
 }
