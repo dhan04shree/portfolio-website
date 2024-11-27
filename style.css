@@ -168,7 +168,7 @@ h5{
 }
     /* contact section */
 .inp-form{
-    width: 80%; /*513px*/
+    width: 90%; /*513px*/
     padding: 2vh 2vh;
     margin-bottom: 1vh;
     font-size: 17px;
@@ -193,7 +193,7 @@ h5{
 }
 @media(max-width :1110px){
     body{
-        padding:0 30px;
+        padding: 0 0 80px 30px;
     }
     .projectimg{
         float: none;
@@ -223,7 +223,7 @@ h5{
         padding-top: 200px;
     }
     .aboutimg{
-        padding-left: 20%;
+        padding-left: 15%;
     }
 }
 @media(min-width:1114px){
